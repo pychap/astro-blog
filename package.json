@@ -13,10 +13,12 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/image": "^0.17.2",
     "astro": "^2.9.3",
     "astro-icon": "^0.8.1",
     "postcss": "^8.4.27",
-    "postcss-preset-env": "^9.1.0"
+    "postcss-preset-env": "^9.1.0",
+    "sharp": "^0.32.4"
   },
   "devDependencies": {
     "sass": "^1.64.1"
