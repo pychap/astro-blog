@@ -1,12 +1,16 @@
 ---
-
+import { Icon } from "astro-icon";
 ---
 
 <footer>
-  <p>This is a footer</p>
-  <small>
-    Copyright &copy; <span id="copyright"></span> | All rights reserved.
-  </small>
+  <div>
+    <small>
+      Copyright &copy; <span id="copyright"></span> | All rights reserved.
+    </small>
+    <small><a href="/rss.xml">
+      Subscribe to rss<Icon name="tabler:rss" width="20" height="20" />
+    </a></small>
+  </div>
 </footer>
 
 <script>
