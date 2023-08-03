@@ -10,7 +10,9 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "watch:css": "postcss src/styles/global.css -o dist/global.css -w",
+    "build:css": "postcss src/styles/global.css -o dist/global.css"
   },
   "dependencies": {
     "@astrojs/image": "^0.17.2",
