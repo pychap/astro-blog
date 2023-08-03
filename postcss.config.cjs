@@ -1,7 +1,8 @@
 module.exports = {
   plugins: [
-    require('postcss-preset-env', 'postcss-custom-media')({
-      stage: 0,
-    })
+    require('postcss-preset-env')({
+      stage: 1,
+    }),
+    require('postcss-custom-media'),
   ]
 }
